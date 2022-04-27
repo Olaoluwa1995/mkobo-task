@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mkobo_task/views/widgets/header.dart';
-import 'package:mkobo_task/views/widgets/balance_slider.dart';
-import 'package:mkobo_task/views/widgets/tabs.dart';
+import 'package:mkobo_task/views/home/widgets/balance_slider.dart';
+import 'package:mkobo_task/views/home/widgets/header.dart';
+import 'package:mkobo_task/views/home/widgets/tabs.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -22,19 +22,21 @@ class _HomeScreenState extends State<HomeScreen> {
           width: size.width,
           margin: EdgeInsets.only(top: size.height * 0.02),
           padding: EdgeInsets.symmetric(horizontal: size.width * 0.05),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
-              Header(),
-              SizedBox(
-                height: 10,
-              ),
-              BalanceSlider(),
-              SizedBox(
-                height: 20,
-              ),
-              Tabs()
-            ],
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: const [
+                Header(),
+                SizedBox(
+                  height: 10,
+                ),
+                BalanceSlider(),
+                SizedBox(
+                  height: 20,
+                ),
+                Tabs()
+              ],
+            ),
           ),
         ),
       ),
