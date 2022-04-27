@@ -40,7 +40,6 @@ class _MainScreenState extends State<MainScreen> {
           height: 40,
           width: 40,
           margin: const EdgeInsets.only(top: 22),
-          // padding: const EdgeInsets.all(5),
           decoration: const BoxDecoration(
             color: Colors.white,
             shape: BoxShape.circle,
@@ -63,14 +62,16 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
       bottomNavigationBar: Container(
-        decoration: const BoxDecoration(boxShadow: [
-          BoxShadow(
-            color: Color.fromRGBO(155, 132, 135, 0.142097),
-            offset: Offset(0, 0),
-            spreadRadius: 10,
-            blurRadius: 5,
-          )
-        ]),
+        decoration: const BoxDecoration(
+          boxShadow: [
+            BoxShadow(
+              color: Color.fromRGBO(155, 132, 135, 0.142097),
+              offset: Offset(0, 0),
+              spreadRadius: 10,
+              blurRadius: 5,
+            )
+          ],
+        ),
         child: BottomNav(
           currentIndex: _currentIndex,
           onTabTapped: onTabTapped,
