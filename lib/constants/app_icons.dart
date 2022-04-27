@@ -9,6 +9,10 @@ class AppIcons {
   static const String transfer = 'assets/icons/transfer.png';
   static const String receive = 'assets/icons/receive.png';
   static const String send = 'assets/icons/send.png';
+  static const String home = 'assets/icons/home.png';
+  static const String menu = 'assets/icons/menu.png';
+  static const String saveBarIcon = 'assets/icons/save_bar_icon.png';
+  static const String earlyPayHands = 'assets/icons/early_pay_hands.png';
   static const String netflix = 'assets/icons/netflix.png';
   static const String payBills = 'assets/icons/pay_bills.png';
   static const String earlyPay = 'assets/icons/early_pay.png';
