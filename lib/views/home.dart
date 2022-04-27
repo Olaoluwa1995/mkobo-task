@@ -1,10 +1,7 @@
-import 'package:carousel_slider/carousel_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:mkobo_task/constants/app_colors.dart';
-import 'package:mkobo_task/constants/app_icons.dart';
-import 'package:mkobo_task/shared/app_font.dart';
 import 'package:mkobo_task/views/widgets/header.dart';
 import 'package:mkobo_task/views/widgets/balance_slider.dart';
+import 'package:mkobo_task/views/widgets/tabs.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -33,6 +30,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 10,
               ),
               BalanceSlider(),
+              SizedBox(
+                height: 20,
+              ),
+              Tabs()
             ],
           ),
         ),
