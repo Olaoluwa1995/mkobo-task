@@ -3,7 +3,7 @@ import 'package:mkobo_task/constants/app_colors.dart';
 import 'package:mkobo_task/constants/app_font.dart';
 import 'package:mkobo_task/constants/app_icons.dart';
 import 'package:mkobo_task/views/home/home.dart';
-import 'package:mkobo_task/views/widgets/bottom-nav.dart';
+import 'package:mkobo_task/views/widgets/bottom_nav.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);

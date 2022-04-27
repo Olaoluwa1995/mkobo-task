@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mkobo_task/constants/app_colors.dart';
 import 'package:mkobo_task/constants/app_font.dart';
 
 class TabBarItem extends StatelessWidget {
